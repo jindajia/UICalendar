@@ -24,6 +24,7 @@
 }
 
 -(void)createCallendarCollectionView{
+    NSLog(@"创建CollectionView");
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     //flowLayout的属性minimumLineSpacing  minimumInteritemSpacing  itemSize
     flowLayout.minimumLineSpacing = 1;
